@@ -1,0 +1,169 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-plex-sans), var(--font-noto-sans-sc), system-ui, sans-serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, monospace;
+  --font-heading: var(--font-fraunces), var(--font-noto-serif-sc), serif;
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-lamp: var(--lamp);
+  --color-lamp-foreground: var(--lamp-foreground);
+  --color-focus: var(--focus);
+  --color-focus-border: var(--focus-border);
+  --color-overdue: var(--overdue);
+  --color-overdue-soft: var(--overdue-soft);
+  --color-success: var(--success);
+  --color-success-soft: var(--success-soft);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+/* "Study desk" palette: warm paper ground, soft blue ink, amber lamp accent. */
+:root {
+  --background: #f6f3ec;
+  --foreground: #1c2233;
+  --card: #fffdf8;
+  --card-foreground: #1c2233;
+  --popover: #fffdf8;
+  --popover-foreground: #1c2233;
+  --primary: #3d62ad;
+  --primary-foreground: #ffffff;
+  --secondary: #dde6f5;
+  --secondary-foreground: #1a3566;
+  --muted: #f0ebe1;
+  --muted-foreground: #5d6271;
+  --accent: #e6ecf7;
+  --accent-foreground: #23407a;
+  --destructive: #b4441e;
+  --border: #e7e1d5;
+  --input: #dcd5c7;
+  --ring: #3d62ad;
+  --chart-1: #3d62ad;
+  --chart-2: #c4561b;
+  --chart-3: #0e7c86;
+  --chart-4: #7b4fc9;
+  --chart-5: #2f7d32;
+  --radius: 0.75rem;
+  --sidebar: #eef2f9;
+  --sidebar-foreground: #3b4152;
+  --sidebar-primary: #3d62ad;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #dde6f5;
+  --sidebar-accent-foreground: #1a3566;
+  --sidebar-border: #e1e6f0;
+  --sidebar-ring: #3d62ad;
+  --lamp: #e9b24a;
+  --lamp-foreground: #1c2541;
+  --focus: #eaf0f9;
+  --focus-border: #dce4f1;
+  --overdue: #9c3916;
+  --overdue-soft: #fbeee6;
+  --success: #17603b;
+  --success-soft: #e1f1e7;
+}
+
+.dark {
+  --background: #14171f;
+  --foreground: #ece8df;
+  --card: #1b1f2a;
+  --card-foreground: #ece8df;
+  --popover: #1b1f2a;
+  --popover-foreground: #ece8df;
+  --primary: #8eabe6;
+  --primary-foreground: #101624;
+  --secondary: #26304a;
+  --secondary-foreground: #dbe4f7;
+  --muted: #232835;
+  --muted-foreground: #a7adbb;
+  --accent: #26304a;
+  --accent-foreground: #dbe4f7;
+  --destructive: #f08a64;
+  --border: #2c3242;
+  --input: #363d50;
+  --ring: #8eabe6;
+  --chart-1: #8eabe6;
+  --chart-2: #f0a070;
+  --chart-3: #5fc4cc;
+  --chart-4: #b79cf0;
+  --chart-5: #82c785;
+  --sidebar: #181c26;
+  --sidebar-foreground: #c9cfdc;
+  --sidebar-primary: #8eabe6;
+  --sidebar-primary-foreground: #101624;
+  --sidebar-accent: #26304a;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #2c3242;
+  --sidebar-ring: #8eabe6;
+  --lamp: #e9b24a;
+  --lamp-foreground: #1c2541;
+  --focus: #1e2638;
+  --focus-border: #2f3a55;
+  --overdue: #f08a64;
+  --overdue-soft: #3a2219;
+  --success: #82c785;
+  --success-soft: #1d3324;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  button:not(:disabled), [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  html {
+    @apply font-sans;
+  }
+}
+
+/* Faint notebook ruling used on the "today" focus card. */
+.ruled {
+  background-image: repeating-linear-gradient(
+    0deg,
+    rgb(35 64 122 / 0.07) 0px,
+    rgb(35 64 122 / 0.07) 1px,
+    transparent 1px,
+    transparent 32px
+  );
+}

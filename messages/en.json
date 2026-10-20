@@ -1,0 +1,172 @@
+{
+  "Metadata": {
+    "title": "University Assignment Manager",
+    "description": "Semesters, subjects, assignments, calendar and CGPA in one study workspace."
+  },
+  "Brand": {
+    "name": "Assignment Manager",
+    "tagline": "Your study desk"
+  },
+  "Nav": {
+    "label": "Main",
+    "dashboard": "Dashboard",
+    "semesters": "Semesters",
+    "subjects": "Subjects",
+    "tasks": "Tasks",
+    "calendar": "Calendar",
+    "grades": "Grades & CGPA",
+    "archive": "Archive",
+    "notifications": "Notifications",
+    "settings": "Settings",
+    "openMenu": "Open navigation menu"
+  },
+  "Topbar": {
+    "searchLabel": "Search",
+    "searchPlaceholder": "Search tasks, subjects, module codes…",
+    "newTask": "New task",
+    "notifications": "Notifications",
+    "account": "Account"
+  },
+  "Language": {
+    "label": "Interface language",
+    "en": "EN",
+    "zh-CN": "中文",
+    "enFull": "English",
+    "zh-CNFull": "简体中文"
+  },
+  "Dashboard": {
+    "title": "Dashboard",
+    "greeting": "Welcome to your study desk.",
+    "subtitle": "Start by adding your current semester, then its subjects. Deadlines, progress and CGPA will appear here from your own records.",
+    "startCta": "Add your first semester",
+    "summaryLabel": "Summary",
+    "dueToday": "Due today",
+    "overdue": "Overdue",
+    "inProgress": "In progress",
+    "cgpa": "CGPA",
+    "noData": "No records yet",
+    "upcomingTitle": "Upcoming deadlines",
+    "upcomingEmpty": "No deadlines yet. Tasks you add with a due date will show up here."
+  },
+  "Pages": {
+    "semesters": {
+      "title": "Semesters",
+      "description": "Group your subjects by semester and archive finished ones without losing anything.",
+      "emptyTitle": "No semesters yet",
+      "emptyBody": "Create a semester with its dates to start organising your subjects."
+    },
+    "subjects": {
+      "title": "Subjects",
+      "description": "Each subject holds its lecturer details, tasks, files and links.",
+      "emptyTitle": "No subjects yet",
+      "emptyBody": "Add a semester first, then add the subjects you are taking."
+    },
+    "tasks": {
+      "title": "Tasks",
+      "description": "Assignments, quizzes, projects and every other academic activity.",
+      "emptyTitle": "No tasks yet",
+      "emptyBody": "A task only needs a title and a subject. You can add the deadline, notes and files later."
+    },
+    "calendar": {
+      "title": "Calendar",
+      "description": "Month, week and agenda views of your deadlines.",
+      "emptyTitle": "Nothing scheduled",
+      "emptyBody": "Tasks with a due date will appear on the calendar."
+    },
+    "grades": {
+      "title": "Grades & CGPA",
+      "description": "Semester GPA and cumulative CGPA calculated from your grade records.",
+      "emptyTitle": "No grades recorded",
+      "emptyBody": "Enter grades manually or import a transcript. Calculated results are not official university records."
+    },
+    "archive": {
+      "title": "Archive",
+      "description": "Past semesters with all their subjects, tasks, files and grades.",
+      "emptyTitle": "Archive is empty",
+      "emptyBody": "Semesters you archive will stay searchable here."
+    },
+    "notifications": {
+      "title": "Notifications",
+      "description": "Deadline reminders and sync or analysis problems.",
+      "emptyTitle": "You're all caught up",
+      "emptyBody": "New reminders will appear here."
+    },
+    "settings": {
+      "title": "Settings",
+      "description": "Profile, language and connected accounts.",
+      "languageTitle": "Interface language",
+      "languageBody": "Changing the language never changes your tasks, deadlines, grades or documents. Your choice is saved to your account and used on every device.",
+      "profileTitle": "Profile",
+      "profileEmail": "Email",
+      "profileName": "Display name"
+    }
+  },
+  "Auth": {
+    "email": "Email",
+    "password": "Password",
+    "newPassword": "New password",
+    "displayName": "Name (optional)",
+    "passwordHint": "At least 8 characters, with letters and numbers.",
+    "or": "or",
+    "continueWithGoogle": "Continue with Google",
+    "login": {
+      "title": "Welcome back",
+      "subtitle": "Sign in to open your study desk.",
+      "submit": "Sign in",
+      "forgot": "Forgot password?",
+      "noAccount": "New here?",
+      "toSignup": "Create an account"
+    },
+    "signup": {
+      "title": "Create your account",
+      "subtitle": "Your semesters, tasks and grades stay private to you.",
+      "submit": "Create account",
+      "hasAccount": "Already have an account?",
+      "toLogin": "Sign in",
+      "checkEmailTitle": "Check your email",
+      "checkEmailBody": "If this address can be registered, we sent a confirmation link to it. Open the link to finish signing up."
+    },
+    "forgot": {
+      "title": "Reset your password",
+      "subtitle": "Enter your email and we'll send you a link to choose a new password.",
+      "submit": "Send reset link",
+      "sentTitle": "Check your email",
+      "sentBody": "If an account exists for this address, a reset link is on its way.",
+      "back": "Back to sign in"
+    },
+    "reset": {
+      "title": "Choose a new password",
+      "submit": "Save new password"
+    },
+    "pending": "Please wait…",
+    "notConfiguredTitle": "Sign-in is not connected yet",
+    "notConfiguredBody": "The Supabase project keys are missing. Follow docs/SETUP.md to add them to .env.local, then restart the server.",
+    "errors": {
+      "invalidEmail": "Enter a valid email address.",
+      "passwordRequired": "Enter your password.",
+      "passwordTooShort": "Use at least 8 characters.",
+      "passwordTooLong": "Use 72 characters or fewer.",
+      "passwordNeedsLetter": "Include at least one letter.",
+      "passwordNeedsDigit": "Include at least one number.",
+      "displayNameTooLong": "Use 80 characters or fewer.",
+      "invalidCredentials": "Email or password is incorrect.",
+      "emailNotConfirmed": "Confirm your email first. Check your inbox for the link.",
+      "weakPassword": "This password is too easy to guess. Try a longer one.",
+      "rateLimited": "Too many attempts. Wait a minute and try again.",
+      "notConfigured": "Sign-in is not connected yet. See docs/SETUP.md.",
+      "linkInvalid": "This link has expired or was already used. Request a new one.",
+      "generic": "Something went wrong. Please try again."
+    }
+  },
+  "Account": {
+    "menu": "Account menu",
+    "settings": "Settings",
+    "signOut": "Sign out",
+    "signedInAs": "Signed in as"
+  },
+  "Common": {
+    "comingSoon": "Available in a later phase",
+    "save": "Save",
+    "saved": "Saved"
+  }
+}

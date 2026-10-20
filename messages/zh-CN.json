@@ -1,0 +1,172 @@
+{
+  "Metadata": {
+    "title": "大学作业管理",
+    "description": "在一个学习空间里管理学期、科目、作业、日历和 CGPA。"
+  },
+  "Brand": {
+    "name": "作业管理",
+    "tagline": "你的学习书桌"
+  },
+  "Nav": {
+    "label": "主导航",
+    "dashboard": "仪表板",
+    "semesters": "学期",
+    "subjects": "科目",
+    "tasks": "任务",
+    "calendar": "日历",
+    "grades": "成绩与 CGPA",
+    "archive": "归档",
+    "notifications": "通知",
+    "settings": "设置",
+    "openMenu": "打开导航菜单"
+  },
+  "Topbar": {
+    "searchLabel": "搜索",
+    "searchPlaceholder": "搜索任务、科目、课程代码…",
+    "newTask": "新建任务",
+    "notifications": "通知",
+    "account": "账户"
+  },
+  "Language": {
+    "label": "界面语言",
+    "en": "EN",
+    "zh-CN": "中文",
+    "enFull": "English",
+    "zh-CNFull": "简体中文"
+  },
+  "Dashboard": {
+    "title": "仪表板",
+    "greeting": "欢迎来到你的学习书桌。",
+    "subtitle": "先添加当前学期，再添加它的科目。截止日期、进度和 CGPA 都会根据你自己的记录显示在这里。",
+    "startCta": "添加第一个学期",
+    "summaryLabel": "概览",
+    "dueToday": "今天到期",
+    "overdue": "已逾期",
+    "inProgress": "进行中",
+    "cgpa": "CGPA",
+    "noData": "暂无记录",
+    "upcomingTitle": "即将截止",
+    "upcomingEmpty": "还没有截止日期。添加带截止日期的任务后会显示在这里。"
+  },
+  "Pages": {
+    "semesters": {
+      "title": "学期",
+      "description": "按学期整理科目，归档已结束的学期也不会丢失任何内容。",
+      "emptyTitle": "还没有学期",
+      "emptyBody": "创建一个带起止日期的学期，开始整理你的科目。"
+    },
+    "subjects": {
+      "title": "科目",
+      "description": "每个科目包含讲师信息、任务、文件和链接。",
+      "emptyTitle": "还没有科目",
+      "emptyBody": "先添加学期，再添加你正在修读的科目。"
+    },
+    "tasks": {
+      "title": "任务",
+      "description": "作业、小测、项目以及其他所有学业活动。",
+      "emptyTitle": "还没有任务",
+      "emptyBody": "任务只需要标题和科目，截止日期、笔记和文件都可以之后再补。"
+    },
+    "calendar": {
+      "title": "日历",
+      "description": "以月、周和日程视图查看截止日期。",
+      "emptyTitle": "暂无安排",
+      "emptyBody": "带截止日期的任务会显示在日历上。"
+    },
+    "grades": {
+      "title": "成绩与 CGPA",
+      "description": "根据你的成绩记录计算学期 GPA 和累计 CGPA。",
+      "emptyTitle": "还没有成绩记录",
+      "emptyBody": "手动输入成绩或导入成绩单。计算结果不是大学的正式记录。"
+    },
+    "archive": {
+      "title": "归档",
+      "description": "过往学期及其全部科目、任务、文件和成绩。",
+      "emptyTitle": "归档为空",
+      "emptyBody": "你归档的学期会保留在这里，并且可以搜索。"
+    },
+    "notifications": {
+      "title": "通知",
+      "description": "截止提醒，以及同步或分析出现的问题。",
+      "emptyTitle": "没有新通知",
+      "emptyBody": "新的提醒会显示在这里。"
+    },
+    "settings": {
+      "title": "设置",
+      "description": "个人资料、语言和已连接的账户。",
+      "languageTitle": "界面语言",
+      "languageBody": "切换语言不会改变你的任务、截止日期、成绩或文件。你的选择会保存到账户，在所有设备上生效。",
+      "profileTitle": "个人资料",
+      "profileEmail": "邮箱",
+      "profileName": "显示名称"
+    }
+  },
+  "Auth": {
+    "email": "邮箱",
+    "password": "密码",
+    "newPassword": "新密码",
+    "displayName": "名字（可选）",
+    "passwordHint": "至少 8 个字符，需同时包含字母和数字。",
+    "or": "或",
+    "continueWithGoogle": "使用 Google 继续",
+    "login": {
+      "title": "欢迎回来",
+      "subtitle": "登录以打开你的学习书桌。",
+      "submit": "登录",
+      "forgot": "忘记密码？",
+      "noAccount": "第一次使用？",
+      "toSignup": "创建账户"
+    },
+    "signup": {
+      "title": "创建账户",
+      "subtitle": "你的学期、任务和成绩只有你自己能看到。",
+      "submit": "创建账户",
+      "hasAccount": "已经有账户？",
+      "toLogin": "登录",
+      "checkEmailTitle": "请查收邮件",
+      "checkEmailBody": "如果这个邮箱可以注册，我们已向它发送确认链接。打开链接即可完成注册。"
+    },
+    "forgot": {
+      "title": "重置密码",
+      "subtitle": "输入你的邮箱，我们会发送一个设置新密码的链接。",
+      "submit": "发送重置链接",
+      "sentTitle": "请查收邮件",
+      "sentBody": "如果这个邮箱有对应的账户，重置链接已经发出。",
+      "back": "返回登录"
+    },
+    "reset": {
+      "title": "设置新密码",
+      "submit": "保存新密码"
+    },
+    "pending": "请稍候…",
+    "notConfiguredTitle": "登录功能尚未连接",
+    "notConfiguredBody": "缺少 Supabase 项目密钥。请按照 docs/SETUP.md 把它们加入 .env.local，然后重启服务器。",
+    "errors": {
+      "invalidEmail": "请输入有效的邮箱地址。",
+      "passwordRequired": "请输入密码。",
+      "passwordTooShort": "至少使用 8 个字符。",
+      "passwordTooLong": "不能超过 72 个字符。",
+      "passwordNeedsLetter": "至少包含一个字母。",
+      "passwordNeedsDigit": "至少包含一个数字。",
+      "displayNameTooLong": "不能超过 80 个字符。",
+      "invalidCredentials": "邮箱或密码不正确。",
+      "emailNotConfirmed": "请先确认邮箱，查看收件箱里的链接。",
+      "weakPassword": "这个密码太容易被猜到，请换一个更长的。",
+      "rateLimited": "尝试次数太多，请稍等一分钟再试。",
+      "notConfigured": "登录功能尚未连接，请参阅 docs/SETUP.md。",
+      "linkInvalid": "此链接已过期或已被使用，请重新申请。",
+      "generic": "出了点问题，请再试一次。"
+    }
+  },
+  "Account": {
+    "menu": "账户菜单",
+    "settings": "设置",
+    "signOut": "退出登录",
+    "signedInAs": "当前登录"
+  },
+  "Common": {
+    "comingSoon": "将在后续阶段提供",
+    "save": "保存",
+    "saved": "已保存"
+  }
+}
